@@ -31,3 +31,7 @@ The manifest schema version will be updated to v5. The only change is to the def
 ## New and changed documentation
 
 _Note: If you're contributing docs for a new or updated feature in v1.1, please link those docs changes below!_
+
+### Plugins
+
+- **dbt-bigquery:** Support fine-grained control of the BigQuery query timeout and retry [bigquery-profile](bigquery-profile).
