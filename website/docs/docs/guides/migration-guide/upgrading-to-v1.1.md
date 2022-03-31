@@ -31,3 +31,5 @@ The manifest schema version will be updated to v5. The only change is to the def
 ## New and changed documentation
 
 _Note: If you're contributing docs for a new or updated feature in v1.1, please link those docs changes below!_
+
+- [**Generic tests**](resource-properties/tests) can define custom names. This is useful to "prettify" the synthetic name that dbt applies automatically. It's needed to disambiguate the case when the same generic test is defined multiple times with different configurations.
