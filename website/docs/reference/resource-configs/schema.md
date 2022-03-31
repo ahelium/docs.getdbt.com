@@ -58,5 +58,19 @@ seeds:
 
 </File>
 
+### Tests
+
+Customize the name of the schema in which tests [configured to store failures](resource-configs/store_failures) will save their results:
+
+<File name='dbt_project.yml'>
+
+```yml
+tests:
+  +store_failures: true
+  +schema: the_island_of_misfit_tests
+```
+
+</File>
+
 ## Warehouse specific information
 * BigQuery: `dataset` and `schema` are interchangeable
